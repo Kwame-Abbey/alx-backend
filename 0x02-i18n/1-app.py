@@ -19,7 +19,7 @@ babel = Babel(app)
 @app.route('/')
 def home():
     """Returns a simple template"""
-    return render_template('-index.html')
+    return render_template('1-index.html')
 
 
 if __name__ == '__main__':
